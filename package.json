@@ -1,0 +1,36 @@
+{
+  "name": "voxelbound-site",
+  "version": "1.0.0",
+  "description": "> *\"Read a chapter, build a world.\"*",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jliby/Voxelbound-Site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jliby/Voxelbound-Site/issues"
+  },
+  "homepage": "https://github.com/jliby/Voxelbound-Site#readme",
+  "dependencies": {
+    "next": "^16.1.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.2",
+    "eslint-config-next": "^16.1.1",
+    "typescript": "^5.9.3"
+  }
+}

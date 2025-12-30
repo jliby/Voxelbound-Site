@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voxelbound - Read a Chapter, Build a World</title>
+    <meta name="description"
+        content="Voxelbound is a cozy productivity sandbox that gamifies reading. As you read real books, your virtual voxel world comes alive with plants, furniture, and cozy vibes.">
+    <meta name="keywords" content="voxelbound, cozy game, productivity game, reading game, voxel, indie game">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="./media/Voxelbond.png" alt="Voxelbound Logo" class="logo-img">
+                <span>Voxelbound</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#devlog">Devlog</a></li>
+                <li><a href="#community" class="nav-cta">Join Community</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-particles"></div>
+            <div class="hero-glow"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">📚 Coming Soon to Steam - $30.00</div>
+            <h1 class="hero-title">
+                <span class="title-line">Read a Chapter,</span>
+                <span class="title-line gradient-text">Build a World.</span>
+            </h1>
+            <p class="hero-subtitle">
+                A <strong>cozy productivity sandbox</strong> that gamifies reading.
+                As you read real books, your virtual voxel room comes alive with plants, furniture, and cozy vibes.
+            </p>
+            <div class="hero-cta">
+                <a href="#community" class="btn btn-primary">
+                    <span>🎮</span> Wishlist on Steam
+                </a>
+                <a href="#about" class="btn btn-secondary">
+                    <span>📖</span> Learn More
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-icon">📕</span>
+                    <span class="stat-text">EPUB & PDF Support</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-icon">🏠</span>
+                    <span class="stat-text">Customizable Rooms</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-icon">🌱</span>
+                    <span class="stat-text">Growing Plants</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-image-frame">
+                <img src="./media/standard-example.jpg" alt="Voxelbound Cozy Room" class="hero-screenshot">
+                <div class="hero-image-glow"></div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">The Concept</span>
+                <h2>Turn Reading Into <span class="gradient-text">an Adventure</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon">📖</div>
+                    <h3>Read Real Books</h3>
+                    <p>Import your EPUB and PDF files into a beautiful, distraction-free reader with customizable fonts,
+                        themes, and bookmarks.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">⏱️</div>
+                    <h3>Track Your Progress</h3>
+                    <p>Every minute of reading earns Focus Points. Watch as your dedication transforms into tangible
+                        rewards.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">🪴</div>
+                    <h3>Watch Your World Grow</h3>
+                    <p>Plants bloom, sunlight shifts, and dust motes dance as you read. Your room evolves with every
+                        chapter.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">🛋️</div>
+                    <h3>Decorate & Customize</h3>
+                    <p>Unlock 50+ furniture items, customize your avatar, and create the perfect cozy reading nook.</p>
+                </div>
+            </div>
+            <div class="about-visual">
+                <div class="progression-flow">
+                    <div class="flow-step">
+                        <div class="flow-icon">📚</div>
+                        <span>Read</span>
+                    </div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-step">
+                        <div class="flow-icon">⭐</div>
+                        <span>Earn Points</span>
+                    </div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-step">
+                        <div class="flow-icon">🎁</div>
+                        <span>Unlock Items</span>
+                    </div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-step">
+                        <div class="flow-icon">🏠</div>
+                        <span>Build Room</span>
+                    </div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-step highlight">
+                        <div class="flow-icon">✨</div>
+                        <span>Feel Accomplished</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Room Themes</span>
+                <h2>Choose Your <span class="gradient-text">Perfect Vibe</span></h2>
+                <p class="section-desc">Multiple themed environments to match your mood, with more coming as DLC.</p>
+            </div>
+            <div class="features-showcase">
+                <div class="feature-card featured">
+                    <div class="feature-image">
+                        <img src="./media/standard-example.jpg" alt="Cozy Cabin Theme">
+                        <div class="feature-overlay">
+                            <span class="feature-tag">Base Game</span>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <h3>🏠 Cozy Cabin</h3>
+                        <p>The default starter room. Warm wood tones, crackling fireplace, and the perfect atmosphere
+                            for getting lost in a good book.</p>
+                        <ul class="feature-list">
+                            <li>Crackling fire ambiance</li>
+                            <li>Rain on windows</li>
+                            <li>Acoustic lofi music</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="./media/cyberpunk-example.jpg" alt="Cyberpunk Archive Theme">
+                        <div class="feature-overlay">
+                            <span class="feature-tag">DLC</span>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <h3>🌃 Cyberpunk Archive</h3>
+                        <p>Neon rain, server racks, and synth vibes. Perfect for sci-fi readers and night owls.</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="./media/medieval-example.jpg" alt="Medieval Library Theme">
+                        <div class="feature-overlay">
+                            <span class="feature-tag">DLC</span>
+                        </div>
+                    </div>
+                    <div class="feature-content">
+                        <h3>🏛️ Medieval Library</h3>
+                        <p>Grand stone architecture, mystical candles, and ancient tome atmosphere for fantasy
+                            enthusiasts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Concept Art</span>
+                <h2>Visual <span class="gradient-text">Preview</span></h2>
+            </div>
+            <div class="gallery-carousel">
+                <button class="carousel-btn prev" id="carouselPrev" aria-label="Previous slide">‹</button>
+                <div class="carousel-track-container">
+                    <div class="carousel-track" id="carouselTrack">
+                        <div class="carousel-slide">
+                            <img src="./media/standard-example.jpg" alt="Standard Room View">
+                            <div class="slide-caption">Cozy Cabin - Default Theme</div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="./media/reading-perspective-example.jpg" alt="Reading Perspective">
+                            <div class="slide-caption">First-Person Reading View</div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="./media/reading-3rd-perspective-example.jpg" alt="Third Person View">
+                            <div class="slide-caption">Third-Person Room View</div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="./media/cyberpunk-example.jpg" alt="Cyberpunk Theme">
+                            <div class="slide-caption">Cyberpunk Archive Theme</div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="./media/medieval-example.jpg" alt="Medieval Theme">
+                            <div class="slide-caption">Medieval Library Theme</div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="./media/unlocked_item_example.png" alt="Unlocked Item">
+                            <div class="slide-caption">Item Unlock Celebration</div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next" id="carouselNext" aria-label="Next slide">›</button>
+            </div>
+            <div class="carousel-dots" id="carouselDots"></div>
+        </div>
+    </section>
+
+    <!-- Devlog Section -->
+    <section class="devlog" id="devlog">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Development</span>
+                <h2>Follow the <span class="gradient-text">Journey</span></h2>
+                <p class="section-desc">Stay updated on the latest development progress and behind-the-scenes content.
+                </p>
+            </div>
+            <div class="devlog-grid">
+                <article class="devlog-card featured">
+                    <div class="devlog-date">
+                        <span class="day">23</span>
+                        <span class="month">Dec</span>
+                    </div>
+                    <div class="devlog-content">
+                        <span class="devlog-tag">Announcement</span>
+                        <h3>Welcome to Voxelbound!</h3>
+                        <p>We're excited to share our vision for Voxelbound - a cozy productivity game that rewards you
+                            for reading. The development is underway, and we can't wait to show you more.</p>
+                        <div class="devlog-footer">
+                            <span class="read-time">📖 2 min read</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="devlog-card">
+                    <div class="devlog-date">
+                        <span class="day">--</span>
+                        <span class="month">TBD</span>
+                    </div>
+                    <div class="devlog-content">
+                        <span class="devlog-tag">Coming Soon</span>
+                        <h3>More Updates Coming...</h3>
+                        <p>Join our community to be the first to know when we share new devlogs, concept art, and
+                            development milestones.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section class="community" id="community">
+        <div class="container">
+            <div class="community-content">
+                <div class="community-text">
+                    <span class="section-tag">Join Us</span>
+                    <h2>Be Part of the <span class="gradient-text">Community</span></h2>
+                    <p>Get exclusive updates, vote on features, and connect with other readers who love cozy games.</p>
+                    <div class="community-perks">
+                        <div class="perk">✨ Early access announcements</div>
+                        <div class="perk">🎨 Behind-the-scenes content</div>
+                        <div class="perk">🗳️ Vote on new themes & features</div>
+                        <div class="perk">💬 Connect with the community</div>
+                    </div>
+                </div>
+                <div class="community-actions">
+                    <div class="newsletter-form">
+                        <h4>📬 Newsletter Signup</h4>
+                        <form id="newsletterForm">
+                            <input type="email" placeholder="your@email.com" required>
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </form>
+                        <p class="form-note">No spam, just cozy updates. Unsubscribe anytime.</p>
+                    </div>
+                    <div class="social-links">
+                        <h4>🌐 Connect With Us</h4>
+                        <div class="social-grid">
+                            <a href="#" class="social-btn discord">
+                                <span class="social-icon">💬</span>
+                                <span>Discord</span>
+                            </a>
+                            <a href="#" class="social-btn twitter">
+                                <span class="social-icon">🐦</span>
+                                <span>Twitter</span>
+                            </a>
+                            <a href="#" class="social-btn steam">
+                                <span class="social-icon">🎮</span>
+                                <span>Steam</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="./media/Voxelbond.png" alt="Voxelbound" class="footer-logo">
+                    <span class="footer-title">Voxelbound</span>
+                    <p class="footer-tagline">"Read a chapter, build a world."</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h5>Game</h5>
+                        <a href="#about">About</a>
+                        <a href="#features">Features</a>
+                        <a href="#gallery">Gallery</a>
+                    </div>
+                    <div class="footer-col">
+                        <h5>Community</h5>
+                        <a href="#devlog">Devlog</a>
+                        <a href="#">Discord</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                    <div class="footer-col">
+                        <h5>Legal</h5>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Voxelbound. All rights reserved.</p>
+                <p class="footer-made">Made with 📚 and ☕</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
