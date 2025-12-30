@@ -356,12 +356,7 @@ img {
 }
 
 .stat-icon {
-    font-size: 1.1rem;
-    color: var(--accent-primary);
-}
-
-.about-icon i {
-    color: var(--accent-primary);
+    font-size: 1.25rem;
 }
 
 .hero-image {
